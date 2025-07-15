@@ -1,0 +1,24 @@
+name: talabi
+description: Talabi Flutter App
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  provider: ^6.0.5
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - ar.json
+    - en.json
